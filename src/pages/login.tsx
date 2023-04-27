@@ -14,7 +14,6 @@ export default function LoginForm() {
         e.preventDefault();
         onSubmit(username, password);
     }
-
     return (
         <div className="flex justify-center items-center h-screen p-10">
         <form onSubmit={handleSubmit} className="flex flex-col gap-4 w-5/12">
